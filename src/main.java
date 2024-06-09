@@ -29,6 +29,7 @@ public class main {
                         case 1:
                             double ingresoDinero = Double.parseDouble(JOptionPane.showInputDialog("Introduzca la Cantidad de Dinero a Ingresar"));
                             cuentaTotal = cuentaTotal + ingresoDinero;
+                            JOptionPane.showMessageDialog(null,"Deposito con exito");
                             break;
 
                         case 2:
